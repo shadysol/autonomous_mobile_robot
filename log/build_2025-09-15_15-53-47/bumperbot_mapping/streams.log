@@ -1,0 +1,79 @@
+[0.037s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+[0.095s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.391s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.498s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.501s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.814s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.815s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.888s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.925s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.381s] -- Configuring done
+[1.414s] -- Generating done
+[1.422s] -- Build files have been written to: /home/shady/bumperbot_ws/build/bumperbot_mapping
+[1.498s] [35m[1mConsolidate compiler generated dependencies of target mapping_with_known_poses[0m
+[1.532s] [  0%] Built target ament_cmake_python_copy_bumperbot_mapping
+[1.552s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[2.185s] running egg_info
+[2.188s] writing bumperbot_mapping.egg-info/PKG-INFO
+[2.188s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[2.188s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[2.193s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[2.195s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[2.256s] [ 50%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[19.923s] [100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[21.114s] [100%] Built target mapping_with_known_poses
+[21.135s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+[21.191s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_mapping
+[21.207s] -- Install configuration: ""
+[21.207s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[21.207s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[21.207s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info
+[21.208s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[21.208s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[21.210s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[21.210s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[21.210s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping
+[21.210s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py
+[21.210s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py
+[21.290s] Listing '/home/shady/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping'...
+[21.303s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/include/include
+[21.304s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[21.304s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[21.305s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[21.311s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses" to ""
+[21.312s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[21.312s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[21.312s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[21.312s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[21.312s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[21.313s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/willowgarage
+[21.313s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/willowgarage/map.yaml
+[21.313s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/willowgarage/map.pgm
+[21.313s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[21.313s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[21.313s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[21.314s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[21.314s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[21.314s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[21.314s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[21.314s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[21.314s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[21.315s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[21.315s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[21.315s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[21.315s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[21.315s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[21.316s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[21.316s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[21.316s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[21.316s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[21.316s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[21.316s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[21.317s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[21.324s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_mapping

@@ -1,0 +1,70 @@
+[0.046s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[0.238s] [  0%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.245s] [ 33%] Built target odometry_motion_model
+[0.258s] [ 66%] Built target kalman_filter
+[0.262s] [100%] Built target imu_republisher
+[0.891s] running egg_info
+[0.894s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.894s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.894s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.897s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.898s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.025s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[1.223s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[1.290s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_localization
+[1.297s] -- Install configuration: ""
+[1.297s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[1.297s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[1.298s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[1.298s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.298s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.298s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[1.299s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[1.299s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[1.299s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[1.299s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[1.299s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[1.299s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/odometry_motion_model.py
+[1.333s] Listing '/home/shady/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/include/include
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[1.338s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[1.338s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[1.338s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[1.338s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[1.338s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[1.339s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[1.339s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[1.339s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/global_costmap.yaml
+[1.340s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/dwb_controller.yaml
+[1.340s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[1.340s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/behavior_server.yaml
+[1.340s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/local_costmap.yaml
+[1.340s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/bt_navigator.yaml
+[1.341s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/navfn_planner.yaml
+[1.341s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[1.341s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz
+[1.342s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[1.342s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[1.342s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[1.342s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[1.343s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[1.344s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[1.344s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[1.344s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[1.345s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[1.345s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[1.345s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[1.349s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[1.349s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[1.349s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[1.349s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[1.350s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[1.350s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[1.350s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[1.351s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[1.353s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_localization

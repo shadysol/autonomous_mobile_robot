@@ -1,0 +1,1003 @@
+[0.034s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shady/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/shady/bumperbot_ws/install/bumperbot_description
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.258s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.394s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.561s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.818s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.973s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.054s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.056s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.093s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.098s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.108s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.197s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.238s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.312s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.318s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.345s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.351s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.366s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.403s] -- Looking for pthread.h
+[1.525s] -- Looking for pthread.h - found
+[1.526s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.649s] -- Found Threads: TRUE  
+[1.765s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.765s] -- Checking for module 'bullet>=2.82'
+[1.778s] --   Found bullet, version 3.05
+[1.962s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.030s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.055s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.099s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.119s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.131s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.145s] -- Searching for dependencies of ignition-math6
+[2.148s] -- Looking for OGRE...
+[2.149s] -- OGRE_PREFIX_WATCH changed.
+[2.157s] -- Checking for module 'OGRE'
+[2.182s] --   Found OGRE, version 1.9.0
+[2.240s] -- Found Ogre Ghadamon (1.9.0)
+[2.264s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.277s] -- Looking for OGRE_Paging...
+[2.294s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.294s] -- Looking for OGRE_Terrain...
+[2.305s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.305s] -- Looking for OGRE_Property...
+[2.318s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.318s] -- Looking for OGRE_RTShaderSystem...
+[2.331s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.332s] -- Looking for OGRE_Volume...
+[2.344s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.344s] -- Looking for OGRE_Overlay...
+[2.351s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.638s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.644s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.646s] -- Searching for dependencies of ignition-transport8
+[2.681s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.714s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.731s] -- Checking for module 'libzmq >= 4'
+[2.785s] --   Found libzmq , version 4.3.4
+[2.888s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.911s] -- Checking for module 'uuid'
+[2.948s] --   Found uuid, version 2.37.2
+[3.050s] -- Found UUID: TRUE  
+[3.060s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.065s] -- Searching for dependencies of ignition-msgs5
+[3.130s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.146s] -- Checking for module 'tinyxml2'
+[3.190s] --   Found tinyxml2, version 9.0.0
+[3.289s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.291s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.292s] -- Searching for dependencies of ignition-common3
+[3.300s] -- Looking for dlfcn.h - found
+[3.300s] -- Looking for libdl - found
+[3.301s] -- Found DL: TRUE  
+[3.332s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.332s] -- Searching for <ignition-common3> component [graphics]
+[3.338s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.339s] -- Searching for dependencies of ignition-common3-graphics
+[3.339s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.349s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.356s] -- Searching for dependencies of ignition-fuel_tools4
+[3.536s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.560s] -- Checking for module 'jsoncpp'
+[3.584s] --   Found jsoncpp, version 1.9.5
+[3.674s] -- Found JSONCPP: TRUE  
+[3.700s] -- Checking for module 'libzip'
+[3.737s] --   Found libzip, version 1.7.3
+[3.838s] -- Found ZIP: TRUE  
+[3.844s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.844s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.845s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.859s] -- Gazebo version: 11.10
+[3.859s] -- Checking for module 'tbb'
+[3.894s] --   Found tbb, version 2021.5.0
+[4.003s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.312s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.683s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.724s] -- Added test 'lint_cmake' to check CMake code style
+[4.744s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.971s] -- Added test 'xmllint' to check XML markup files
+[4.978s] -- Configuring done
+[4.993s] -- Generating done
+[5.001s] -- Build files have been written to: /home/shady/bumperbot_ws/build/bumperbot_description
+[5.072s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shady/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/shady/bumperbot_ws/install/bumperbot_description
+[5.073s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[16.873s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_description -- -j8 -l8
+[16.984s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_description
+[17.007s] -- Install configuration: ""
+[17.011s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[17.011s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[17.011s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[17.013s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[17.013s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[17.013s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/laser_link.STL
+[17.028s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[17.029s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[17.031s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[17.078s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[17.085s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[17.085s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[17.085s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[17.090s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[17.090s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[17.090s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[17.090s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[17.090s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models
+[17.090s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02
+[17.091s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/model.config
+[17.091s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/meshes
+[17.091s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE
+[17.094s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE
+[17.095s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/model.sdf
+[17.095s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/materials
+[17.095s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/materials/textures
+[17.095s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png
+[17.096s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun
+[17.096s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf
+[17.096s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf
+[17.097s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config
+[17.097s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf
+[17.104s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf
+[17.104s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01
+[17.104s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/model.config
+[17.104s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/meshes
+[17.104s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE
+[17.104s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE
+[17.105s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/model.sdf
+[17.105s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/materials
+[17.105s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/materials/textures
+[17.105s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png
+[17.109s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01
+[17.109s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/model.config
+[17.109s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/meshes
+[17.109s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
+[17.113s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE
+[17.113s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/model.sdf
+[17.114s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/materials
+[17.114s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/materials/textures
+[17.114s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png
+[17.126s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01
+[17.126s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/model.config
+[17.127s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/meshes
+[17.127s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE
+[17.127s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE
+[17.127s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/model.sdf
+[17.128s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/materials
+[17.129s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures
+[17.132s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png
+[17.140s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/DeskPortraitD_01.jpg
+[17.140s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png
+[17.141s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01
+[17.141s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/model.config
+[17.141s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/meshes
+[17.142s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[17.143s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[17.144s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[17.144s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/materials
+[17.144s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/materials/textures
+[17.146s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[17.147s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01
+[17.147s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/model.config
+[17.147s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/meshes
+[17.147s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[17.148s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[17.149s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/model.sdf
+[17.149s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/materials
+[17.149s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/materials/textures
+[17.149s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[17.150s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01
+[17.150s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[17.151s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[17.153s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[17.157s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[17.157s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[17.157s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/materials
+[17.157s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[17.157s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[17.157s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01
+[17.158s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/model.config
+[17.159s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/meshes
+[17.159s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE
+[17.159s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE
+[17.160s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE
+[17.161s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/model.sdf
+[17.161s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/materials
+[17.161s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/materials/textures
+[17.161s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/model.config
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/meshes
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/model.sdf
+[17.167s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/materials
+[17.169s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures
+[17.171s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png
+[17.171s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png
+[17.172s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/DeskPortraitA_02.jpg
+[17.179s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01
+[17.179s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/model.config
+[17.179s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/meshes
+[17.180s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE
+[17.180s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE
+[17.182s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/model.sdf
+[17.182s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/materials
+[17.182s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures
+[17.183s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png
+[17.186s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png
+[17.187s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/DeskPortraitA_01.jpg
+[17.191s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02
+[17.195s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/model.config
+[17.195s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/meshes
+[17.195s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE
+[17.195s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE
+[17.196s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/model.sdf
+[17.196s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/materials
+[17.196s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures
+[17.196s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png
+[17.200s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png
+[17.200s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/DeskPortraitC_02.jpg
+[17.200s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01
+[17.200s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/model.config
+[17.207s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/meshes
+[17.207s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE
+[17.207s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE
+[17.207s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/model.sdf
+[17.207s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/materials
+[17.208s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/materials/textures
+[17.208s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png
+[17.208s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01
+[17.208s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/model.config
+[17.210s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/meshes
+[17.210s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE
+[17.211s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE
+[17.211s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/model.sdf
+[17.211s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/materials
+[17.211s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/materials/textures
+[17.212s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png
+[17.213s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01
+[17.214s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/model.config
+[17.217s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/meshes
+[17.217s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE
+[17.218s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE
+[17.219s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/model.sdf
+[17.219s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/materials
+[17.219s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/materials/textures
+[17.219s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png
+[17.227s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01
+[17.227s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/model.config
+[17.227s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/meshes
+[17.227s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE
+[17.232s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE
+[17.233s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/model.sdf
+[17.233s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/materials
+[17.233s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures
+[17.233s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png
+[17.240s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01
+[17.240s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/model.config
+[17.240s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/meshes
+[17.240s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE
+[17.240s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE
+[17.241s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/model.sdf
+[17.241s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/materials
+[17.241s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/materials/textures
+[17.241s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png
+[17.245s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/materials/textures/PortraitC_01.jpg
+[17.245s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png
+[17.246s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01
+[17.246s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/model.config
+[17.246s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/meshes
+[17.246s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE
+[17.253s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE
+[17.253s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/model.sdf
+[17.254s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/materials
+[17.254s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/materials/textures
+[17.258s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png
+[17.261s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png
+[17.266s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png
+[17.267s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png
+[17.273s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03
+[17.273s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/model.config
+[17.273s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/meshes
+[17.273s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE
+[17.277s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE
+[17.277s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/model.sdf
+[17.277s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/materials
+[17.277s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures
+[17.277s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png
+[17.284s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/DeskPortraitD_03.jpg
+[17.287s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png
+[17.287s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01
+[17.287s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/model.config
+[17.287s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/meshes
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/model.sdf
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/materials
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/materials/textures
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png
+[17.290s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02
+[17.291s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/model.config
+[17.293s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/meshes
+[17.293s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE
+[17.293s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE
+[17.293s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/model.sdf
+[17.294s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/materials
+[17.299s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures
+[17.299s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/DeskPortraitB_02.jpg
+[17.321s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png
+[17.324s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png
+[17.330s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02
+[17.330s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/model.config
+[17.330s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/meshes
+[17.330s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE
+[17.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE
+[17.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/model.sdf
+[17.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/materials
+[17.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/materials/textures
+[17.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png
+[17.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png
+[17.336s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_02/materials/textures/PortraitE_02.jpg
+[17.338s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01
+[17.339s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[17.339s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[17.339s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[17.339s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[17.344s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[17.344s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[17.345s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/materials
+[17.345s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[17.345s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[17.347s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[17.347s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[17.350s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01
+[17.350s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/model.config
+[17.350s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/meshes
+[17.350s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE
+[17.350s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE
+[17.352s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/model.sdf
+[17.356s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/materials
+[17.356s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/materials/textures
+[17.356s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png
+[17.357s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01
+[17.357s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/model.config
+[17.358s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/meshes
+[17.358s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE
+[17.358s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE
+[17.358s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/model.sdf
+[17.358s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/materials
+[17.358s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/materials/textures
+[17.359s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png
+[17.363s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01
+[17.364s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[17.368s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/meshes
+[17.368s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[17.368s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[17.368s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[17.368s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/materials
+[17.368s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[17.372s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[17.372s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[17.372s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[17.372s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[17.372s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02
+[17.373s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/model.config
+[17.373s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/meshes
+[17.373s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE
+[17.375s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE
+[17.375s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/model.sdf
+[17.375s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/materials
+[17.376s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/materials/textures
+[17.376s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png
+[17.378s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01
+[17.378s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/model.config
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/meshes
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/model.sdf
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/materials
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/materials/textures
+[17.386s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png
+[17.387s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02
+[17.387s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/model.config
+[17.388s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/meshes
+[17.388s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE
+[17.388s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE
+[17.388s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/model.sdf
+[17.389s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/materials
+[17.389s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures
+[17.389s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png
+[17.399s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/DeskPortraitD_02.jpg
+[17.402s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png
+[17.404s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01
+[17.404s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/model.config
+[17.404s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/meshes
+[17.405s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE
+[17.407s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE
+[17.407s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/model.sdf
+[17.407s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/materials
+[17.407s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/materials/textures
+[17.407s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png
+[17.410s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01
+[17.410s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/model.config
+[17.410s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/meshes
+[17.410s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE
+[17.426s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE
+[17.426s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/model.sdf
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/materials
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/materials/textures
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/model.config
+[17.431s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/meshes
+[17.432s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE
+[17.432s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE
+[17.434s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/model.sdf
+[17.434s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/materials
+[17.434s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures
+[17.434s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png
+[17.437s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01
+[17.437s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/model.config
+[17.438s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/meshes
+[17.438s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE
+[17.441s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE
+[17.442s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/model.sdf
+[17.442s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/materials
+[17.442s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/materials/textures
+[17.443s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png
+[17.449s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01
+[17.449s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/.DS_Store
+[17.449s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/model.config
+[17.449s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/meshes
+[17.449s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[17.453s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[17.453s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/model.sdf
+[17.453s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/materials
+[17.454s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/materials/textures
+[17.454s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[17.455s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tablet_01/materials/.DS_Store
+[17.457s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01
+[17.457s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/model.config
+[17.459s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/meshes
+[17.459s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[17.460s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[17.461s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[17.463s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/materials
+[17.464s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[17.464s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[17.465s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[17.476s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01
+[17.476s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/model.config
+[17.476s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/meshes
+[17.476s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE
+[17.476s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE
+[17.477s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/model.sdf
+[17.477s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/materials
+[17.477s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/materials/textures
+[17.477s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png
+[17.483s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01
+[17.483s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/model.config
+[17.484s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/meshes
+[17.484s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE
+[17.484s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE
+[17.484s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/model.sdf
+[17.485s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/materials
+[17.485s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/materials/textures
+[17.485s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png
+[17.490s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png
+[17.495s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_01/materials/textures/PortraitD_01.jpg
+[17.495s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01
+[17.495s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[17.495s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/meshes
+[17.498s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[17.498s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[17.500s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[17.500s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/materials
+[17.500s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[17.500s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[17.502s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[17.503s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[17.506s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01
+[17.506s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/model.config
+[17.509s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/meshes
+[17.509s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[17.509s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[17.511s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[17.511s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/materials
+[17.511s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[17.511s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[17.511s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01
+[17.512s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/model.config
+[17.512s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/meshes
+[17.513s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE
+[17.513s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE
+[17.516s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/model.sdf
+[17.516s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/materials
+[17.516s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/materials/textures
+[17.516s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png
+[17.535s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01
+[17.538s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/model.config
+[17.538s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/meshes
+[17.542s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE
+[17.542s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE
+[17.545s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/model.sdf
+[17.545s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/materials
+[17.545s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/materials/textures
+[17.545s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png
+[17.545s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01
+[17.545s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[17.546s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[17.546s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[17.546s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[17.548s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[17.548s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/materials
+[17.548s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[17.548s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[17.550s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[17.553s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01
+[17.554s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/model.config
+[17.555s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/meshes
+[17.555s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE
+[17.555s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE
+[17.556s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE
+[17.556s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/model.sdf
+[17.557s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/materials
+[17.557s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/materials/textures
+[17.558s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png
+[17.558s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png
+[17.559s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01
+[17.559s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[17.562s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[17.562s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/meshes
+[17.562s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[17.562s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[17.565s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[17.566s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials
+[17.566s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[17.566s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[17.567s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[17.569s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[17.569s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[17.570s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[17.572s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01
+[17.572s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[17.572s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[17.572s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[17.573s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[17.576s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[17.577s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials
+[17.577s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[17.577s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[17.579s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[17.580s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01
+[17.580s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[17.580s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/model.config
+[17.580s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/meshes
+[17.580s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[17.581s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[17.585s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[17.585s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/materials
+[17.585s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[17.585s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[17.585s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[17.588s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01
+[17.588s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/model.config
+[17.588s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/meshes
+[17.589s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE
+[17.589s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE
+[17.597s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/model.sdf
+[17.597s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/materials
+[17.597s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/materials/textures
+[17.597s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png
+[17.597s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02
+[17.597s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/model.config
+[17.601s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/meshes
+[17.601s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE
+[17.602s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE
+[17.602s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/model.sdf
+[17.602s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/materials
+[17.602s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/materials/textures
+[17.603s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/materials/textures/PortraitB_02.jpg
+[17.615s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png
+[17.615s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png
+[17.617s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01
+[17.617s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/model.config
+[17.620s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/meshes
+[17.620s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE
+[17.621s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE
+[17.622s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/model.sdf
+[17.622s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/materials
+[17.622s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/materials/textures
+[17.622s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png
+[17.626s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01
+[17.626s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/model.config
+[17.626s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/meshes
+[17.626s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE
+[17.627s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE
+[17.627s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/model.sdf
+[17.627s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/materials
+[17.628s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/materials/textures
+[17.628s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png
+[17.628s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01
+[17.628s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/model.config
+[17.629s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/meshes
+[17.629s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE
+[17.633s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE
+[17.634s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/model.sdf
+[17.635s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/materials
+[17.635s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/materials/textures
+[17.635s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png
+[17.636s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01
+[17.637s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[17.640s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[17.640s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[17.640s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[17.642s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[17.642s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[17.643s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials
+[17.643s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[17.643s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[17.645s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[17.647s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[17.647s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[17.648s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[17.650s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage
+[17.650s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/meshes
+[17.650s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/meshes/willowgarage_collision.dae
+[17.651s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/meshes/willowgarage_visual.dae
+[17.660s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials
+[17.660s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures
+[17.661s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/Wood_Cherry_Original_.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/__auto_2.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/__auto_12.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/Wood_Bamboo_Medium_.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/Carpet_Berber_Pattern_Gray_.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/Stone_Brushed_Khaki_.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/willowgarage/materials/textures/__Wood_Bamboo_Medium_1.png
+[17.669s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01
+[17.670s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/model.config
+[17.670s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/meshes
+[17.670s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE
+[17.671s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE
+[17.673s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE
+[17.675s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/model.sdf
+[17.675s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/materials
+[17.675s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/materials/textures
+[17.675s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png
+[17.681s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04
+[17.681s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/model.config
+[17.681s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/meshes
+[17.681s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE
+[17.682s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE
+[17.683s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/model.sdf
+[17.683s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/materials
+[17.683s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures
+[17.684s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png
+[17.691s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/DeskPortraitD_04.jpg
+[17.696s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png
+[17.696s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/model.config
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/meshes
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/model.sdf
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/materials
+[17.699s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/materials/textures
+[17.700s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png
+[17.700s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01
+[17.700s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/model.config
+[17.700s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/meshes
+[17.700s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE
+[17.702s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE
+[17.704s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/model.sdf
+[17.704s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/materials
+[17.704s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/materials/textures
+[17.704s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png
+[17.712s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01
+[17.716s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/model.config
+[17.716s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/meshes
+[17.716s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[17.717s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[17.719s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[17.720s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials
+[17.720s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[17.720s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[17.720s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[17.720s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[17.726s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[17.730s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[17.731s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[17.731s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01
+[17.732s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/model.config
+[17.736s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/meshes
+[17.736s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE
+[17.736s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE
+[17.739s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/model.sdf
+[17.740s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/materials
+[17.740s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/materials/textures
+[17.740s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/materials/textures/PortraitB_01.jpg
+[17.740s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png
+[17.742s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png
+[17.743s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01
+[17.744s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/model.config
+[17.747s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/meshes
+[17.747s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE
+[17.747s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE
+[17.748s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/model.sdf
+[17.748s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/materials
+[17.748s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/materials/textures
+[17.748s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png
+[17.749s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane
+[17.750s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf
+[17.751s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf
+[17.751s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config
+[17.751s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf
+[17.751s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf
+[17.751s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01
+[17.751s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/model.config
+[17.754s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/meshes
+[17.754s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE
+[17.754s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE
+[17.761s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/model.sdf
+[17.763s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/materials
+[17.763s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/materials/textures
+[17.763s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png
+[17.764s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01
+[17.764s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/model.config
+[17.764s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/meshes
+[17.764s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE
+[17.769s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE
+[17.770s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/model.sdf
+[17.770s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/materials
+[17.770s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/materials/textures
+[17.770s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png
+[17.770s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01
+[17.770s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/model.config
+[17.774s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/meshes
+[17.774s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE
+[17.774s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE
+[17.774s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/model.sdf
+[17.775s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/materials
+[17.775s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/materials/textures
+[17.775s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png
+[17.776s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01
+[17.776s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/model.config
+[17.776s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/meshes
+[17.776s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE
+[17.777s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE
+[17.780s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/model.sdf
+[17.780s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/materials
+[17.780s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/materials/textures
+[17.780s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png
+[17.783s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01
+[17.786s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/model.config
+[17.789s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/meshes
+[17.789s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE
+[17.789s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE
+[17.793s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/model.sdf
+[17.794s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/materials
+[17.794s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/materials/textures
+[17.794s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png
+[17.794s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01
+[17.795s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/model.config
+[17.795s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/meshes
+[17.795s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE
+[17.798s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE
+[17.798s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/model.sdf
+[17.798s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/materials
+[17.798s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures
+[17.798s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png
+[17.801s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01
+[17.801s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/model.config
+[17.802s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/meshes
+[17.802s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE
+[17.803s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE
+[17.807s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/model.sdf
+[17.807s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/materials
+[17.807s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures
+[17.807s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png
+[17.809s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png
+[17.813s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/DeskPortraitC_01.jpg
+[17.830s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01
+[17.833s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/model.config
+[17.833s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/meshes
+[17.833s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE
+[17.839s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE
+[17.839s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/model.sdf
+[17.840s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/materials
+[17.840s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/materials/textures
+[17.840s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png
+[17.845s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01
+[17.845s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/model.config
+[17.849s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/meshes
+[17.849s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE
+[17.849s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE
+[17.856s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/model.sdf
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/materials
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/model.config
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/meshes
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE
+[17.864s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE
+[17.865s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/model.sdf
+[17.866s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/materials
+[17.866s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/materials/textures
+[17.866s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png
+[17.867s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01
+[17.867s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/model.config
+[17.867s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/meshes
+[17.868s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+[17.868s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
+[17.872s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/model.sdf
+[17.872s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/materials
+[17.872s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/materials/textures
+[17.873s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
+[17.873s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01
+[17.874s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/model.config
+[17.878s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/meshes
+[17.878s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE
+[17.878s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE
+[17.878s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/model.sdf
+[17.879s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/materials
+[17.879s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/materials/textures
+[17.879s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png
+[17.882s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01
+[17.882s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/model.config
+[17.882s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/meshes
+[17.882s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[17.882s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[17.882s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[17.883s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/materials
+[17.883s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[17.883s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[17.883s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02
+[17.883s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/model.config
+[17.885s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/meshes
+[17.885s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE
+[17.885s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE
+[17.886s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/model.sdf
+[17.889s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/materials
+[17.889s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/materials/textures
+[17.889s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png
+[17.891s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/materials/textures/PortraitA_02.jpg
+[17.893s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png
+[17.894s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01
+[17.894s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/model.config
+[17.897s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/meshes
+[17.897s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE
+[17.898s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE
+[17.898s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/model.sdf
+[17.901s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/materials
+[17.901s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures
+[17.901s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/DeskPortraitB_01.jpg
+[17.901s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png
+[17.905s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png
+[17.909s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01
+[17.909s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/model.config
+[17.909s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/meshes
+[17.910s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE
+[17.910s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE
+[17.914s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/model.sdf
+[17.914s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/materials
+[17.914s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/materials/textures
+[17.914s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png
+[17.914s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01
+[17.914s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/model.config
+[17.915s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/meshes
+[17.919s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE
+[17.919s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE
+[17.919s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/model.sdf
+[17.919s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/materials
+[17.919s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/materials/textures
+[17.919s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png
+[17.920s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03
+[17.920s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/model.config
+[17.920s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/meshes
+[17.920s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE
+[17.920s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE
+[17.921s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/model.sdf
+[17.924s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/materials
+[17.924s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/materials/textures
+[17.924s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/materials/textures/PortraitB_03.jpg
+[17.924s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png
+[17.924s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png
+[17.925s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01
+[17.925s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/model.config
+[17.928s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/meshes
+[17.928s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE
+[17.928s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE
+[17.929s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/model.sdf
+[17.933s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/materials
+[17.933s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/materials/textures
+[17.933s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png
+[17.933s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png
+[17.936s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitE_01/materials/textures/PortraitE_01.jpg
+[17.937s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01
+[17.937s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/model.config
+[17.940s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/meshes
+[17.940s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE
+[17.941s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE
+[17.941s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/model.sdf
+[17.942s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/materials
+[17.942s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/materials/textures
+[17.942s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png
+[17.943s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02
+[17.943s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/model.config
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/meshes
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/model.sdf
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/materials
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/materials/textures
+[17.950s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png
+[17.951s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png
+[17.953s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitD_02/materials/textures/PortraitD_02.jpg
+[17.954s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01
+[17.954s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/model.config
+[17.954s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/meshes
+[17.954s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE
+[17.955s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE
+[17.955s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/model.sdf
+[17.956s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/materials
+[17.956s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/materials/textures
+[17.956s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png
+[17.960s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png
+[17.960s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_PortraitA_01/materials/textures/PortraitA_01.jpg
+[17.964s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01
+[17.964s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/model.config
+[17.965s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/meshes
+[17.965s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE
+[17.965s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE
+[17.979s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/model.sdf
+[17.979s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/materials
+[17.979s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/materials/textures
+[17.980s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png
+[17.980s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01
+[17.980s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/model.config
+[17.982s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/meshes
+[17.982s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE
+[17.987s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE
+[17.987s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/model.sdf
+[17.987s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/materials
+[17.987s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/materials/textures
+[17.987s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png
+[17.988s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds
+[17.988s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/no_roof_small_warehouse.world
+[17.991s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/small_house.world
+[17.991s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/project_warehouse.world
+[17.992s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/warehouse.world
+[18.003s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/willowgarage.world
+[18.003s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/small_warehouse.world
+[18.003s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[18.003s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[18.006s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[18.006s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[18.006s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[18.006s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[18.006s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[18.007s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[18.018s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_description

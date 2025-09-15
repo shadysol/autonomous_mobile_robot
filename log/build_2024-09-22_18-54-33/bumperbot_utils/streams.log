@@ -1,0 +1,44 @@
+[0.044s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[0.205s] [  0%] Built target ament_cmake_python_copy_bumperbot_utils
+[0.217s] [100%] Built target safety_stop
+[0.775s] running egg_info
+[0.776s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.777s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.777s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[0.779s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.781s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.868s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[1.131s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[1.166s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_utils
+[1.171s] -- Install configuration: ""
+[1.172s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[1.172s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[1.172s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[1.174s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.175s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.175s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[1.175s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[1.175s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[1.176s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[1.176s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/safety_stop.py
+[1.176s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/pose_logger.py
+[1.179s] Listing '/home/shady/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[1.192s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[1.193s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[1.193s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/pose_logger.py
+[1.193s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[1.193s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[1.193s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[1.194s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[1.195s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[1.201s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[1.201s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[1.202s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[1.202s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[1.216s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_utils

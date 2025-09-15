@@ -1,0 +1,60 @@
+[0.046s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[0.257s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.288s] [ 33%] Built target simple_serial_receiver
+[0.299s] [ 66%] Built target bumperbot_firmware
+[0.306s] [100%] Built target simple_serial_transmitter
+[1.188s] running egg_info
+[1.189s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.189s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.190s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.190s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.190s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.199s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.201s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[1.220s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_firmware
+[1.233s] -- Install configuration: ""
+[1.233s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[1.233s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[1.233s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[1.233s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.235s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.235s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[1.235s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[1.235s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[1.236s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[1.236s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[1.236s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[1.314s] Listing '/home/shady/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[1.320s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[1.320s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[1.321s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/include/include
+[1.322s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[1.322s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[1.322s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[1.322s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[1.323s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[1.324s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[1.324s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[1.326s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[1.326s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[1.326s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[1.327s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[1.327s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[1.327s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[1.330s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[1.330s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[1.331s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[1.331s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[1.331s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[1.332s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[1.333s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[1.334s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[1.334s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[1.335s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[1.335s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.336s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.336s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[1.337s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[1.338s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[1.383s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shady/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_firmware

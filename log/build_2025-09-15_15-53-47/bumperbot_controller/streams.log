@@ -1,0 +1,86 @@
+[0.037s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.113s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.398s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.405s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.418s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.546s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.846s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.846s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.876s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.916s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.954s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.339s] -- Configuring done
+[1.388s] -- Generating done
+[1.392s] -- Build files have been written to: /home/shady/bumperbot_ws/build/bumperbot_controller
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[1.448s] [35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
+[1.481s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.489s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.490s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[2.126s] running egg_info
+[2.132s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.133s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.133s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.145s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.148s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.213s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[21.000s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[22.171s] [ 75%] Built target noisy_controller
+[26.709s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[27.508s] [100%] Built target simple_controller
+[27.521s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[27.559s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_controller
+[27.569s] -- Install configuration: ""
+[27.569s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[27.569s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[27.569s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[27.569s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[27.569s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[27.570s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[27.570s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[27.570s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[27.570s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[27.570s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[27.570s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[27.610s] Listing '/home/shady/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[27.615s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/include/include
+[27.615s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[27.616s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[27.616s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[27.616s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[27.623s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[27.624s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[27.628s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[27.628s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[27.628s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[27.628s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[27.628s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[27.629s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[27.629s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[27.630s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[27.630s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[27.630s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[27.630s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[27.631s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[27.634s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_controller

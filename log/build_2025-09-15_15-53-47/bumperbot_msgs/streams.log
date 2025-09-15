@@ -1,0 +1,283 @@
+[0.039s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_msgs -- -j8 -l8
+[0.087s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.352s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.375s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.498s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.034s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.590s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.623s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.623s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.623s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.713s] -- Configuring done
+[2.895s] -- Generating done
+[2.903s] -- Build files have been written to: /home/shady/bumperbot_ws/build/bumperbot_msgs
+[3.030s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_generator_c[0m
+[3.051s] [  2%] Built target bumperbot_msgs__cpp
+[3.074s] [  4%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[3.078s] [  6%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__functions.c.o[0m
+[3.081s] [  8%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[3.100s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.102s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.106s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_cpp[0m
+[3.113s] [  8%] Built target ament_cmake_python_copy_bumperbot_msgs
+[3.160s] [ 10%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[3.162s] [ 12%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[3.177s] [ 14%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[3.183s] [ 17%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[3.368s] [ 19%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[3.391s] [ 21%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[3.768s] [ 23%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[3.941s] [ 25%] Built target bumperbot_msgs__rosidl_generator_c
+[3.966s] [ 27%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[4.732s] running egg_info
+[4.733s] writing bumperbot_msgs.egg-info/PKG-INFO
+[4.737s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[4.738s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[4.752s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[4.754s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[4.891s] [ 27%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[4.926s] [ 29%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[5.005s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_c[0m
+[5.027s] [ 31%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[5.065s] [ 34%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[5.211s] [ 36%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[5.366s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_c[0m
+[5.387s] [ 38%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.401s] [ 40%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.418s] [ 42%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[5.680s] [ 44%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[5.706s] [ 46%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[5.788s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_c[0m
+[5.795s] [ 48%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[5.821s] [ 51%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[5.839s] [ 53%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[5.849s] [ 55%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[5.854s] [ 57%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[5.887s] [ 59%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[5.901s] [ 61%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.041s] [ 63%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[6.058s] [ 65%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[6.220s] [ 68%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[6.236s] [ 70%] Built target bumperbot_msgs__rosidl_typesupport_c
+[6.377s] [ 72%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[6.806s] [ 74%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.982s] [ 76%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[7.020s] [ 76%] Built target bumperbot_msgs
+[7.059s] [ 78%] Built target bumperbot_msgs__py
+[7.081s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_generator_py[0m
+[7.112s] [ 80%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/action/_fibonacci_s.c.o[0m
+[7.122s] [ 82%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[7.123s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[7.632s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so[0m
+[7.744s] [ 87%] Built target bumperbot_msgs__rosidl_generator_py
+[7.780s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.782s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[7.796s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_c__pyext[0m
+[7.819s] [ 89%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.825s] [ 91%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.835s] [ 93%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.132s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.230s] [ 95%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[8.279s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.336s] [100%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.390s] [100%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[8.464s] [100%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.486s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shady/bumperbot_ws/build/bumperbot_msgs -- -j8 -l8
+[8.698s] Invoking command in '/home/shady/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_msgs
+[8.716s] -- Install configuration: ""
+[8.716s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[8.717s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[8.717s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[8.717s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.h
+[8.718s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[8.718s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.c
+[8.719s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.h
+[8.719s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.h
+[8.719s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.h
+[8.720s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[8.720s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[8.720s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[8.721s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[8.721s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[8.721s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[8.722s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[8.722s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[8.723s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[8.723s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[8.723s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[8.724s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[8.724s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[8.724s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.725s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[8.726s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[8.727s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[8.729s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""
+[8.729s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[8.730s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[8.730s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[8.730s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[8.730s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[8.731s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[8.732s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[8.732s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[8.732s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[8.732s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.734s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[8.734s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.735s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[8.735s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[8.736s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.hpp
+[8.736s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[8.737s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__builder.hpp
+[8.737s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.hpp
+[8.738s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__traits.hpp
+[8.738s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[8.738s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[8.739s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[8.739s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[8.739s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[8.739s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[8.740s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[8.740s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[8.740s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[8.740s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[8.740s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[8.740s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[8.742s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[8.742s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[8.742s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/dds_fastrtps
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[8.743s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.745s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.746s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.747s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[8.747s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[8.748s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[8.748s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c
+[8.749s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[8.749s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[8.750s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[8.750s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[8.750s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[8.751s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[8.753s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[8.753s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[8.755s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.757s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[8.758s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.759s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[8.761s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""
+[8.762s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[8.762s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[8.762s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[8.763s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[8.763s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.cpp
+[8.763s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[8.763s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[8.764s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.764s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[8.764s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[8.764s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[8.765s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[8.767s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.768s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[8.772s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""
+[8.772s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[8.773s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[8.773s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info
+[8.774s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.775s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.776s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[8.776s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[8.777s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs
+[8.777s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.777s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.778s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action
+[8.781s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action/_fibonacci.py
+[8.782s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action/__init__.py
+[8.782s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action/_fibonacci_s.c
+[8.782s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.783s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so
+[8.784s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py
+[8.784s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv
+[8.784s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints.py
+[8.785s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/__init__.py
+[8.785s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform.py
+[8.786s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform_s.c
+[8.786s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[8.786s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[8.786s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.787s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.868s] Listing '/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs'...
+[8.868s] Compiling '/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py'...
+[8.869s] Listing '/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action'...
+[8.869s] Listing '/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv'...
+[8.881s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.890s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.890s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.892s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.892s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.900s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.903s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[8.903s] -- Set runtime path of "/home/shady/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""
+[8.904s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.idl
+[8.904s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[8.905s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[8.905s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.action
+[8.906s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[8.906s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Request.msg
+[8.906s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Response.msg
+[8.907s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[8.907s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Request.msg
+[8.907s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Response.msg
+[8.908s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[8.908s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[8.909s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[8.909s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[8.910s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[8.910s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[8.911s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[8.911s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[8.912s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[8.912s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[8.913s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[8.913s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[8.914s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[8.915s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.915s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.916s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.918s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[8.920s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.920s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.921s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.921s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.921s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[8.922s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.923s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.923s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.924s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[8.924s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.925s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[8.926s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.926s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[8.927s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.927s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.928s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.928s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.928s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.929s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.929s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[8.930s] -- Up-to-date: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[8.930s] -- Installing: /home/shady/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[8.935s] Invoked command in '/home/shady/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shady/bumperbot_ws/build/bumperbot_msgs
